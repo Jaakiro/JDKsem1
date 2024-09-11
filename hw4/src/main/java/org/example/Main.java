@@ -19,7 +19,7 @@ public class Main {
 
         List<String> phoneNumbers = directory.findPhoneNumbersByName("Axe");
         System.out.println("Номера телефонов сотрудника Axe: " + phoneNumbers);
-        
+
         Employee employee = directory.findEmployeeById(1);
         if (employee != null) {
             System.out.println("Сотрудник с табельным номером 1: " + employee);
