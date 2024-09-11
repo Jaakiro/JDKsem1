@@ -15,7 +15,7 @@ public class Main {
         directory.addEmployee(employee3);
 
         List<Employee> employeesWithExperience = directory.findEmployeesByExperience(6);
-        System.out.println("Сотрудники со стажем 5 лет: " + employeesWithExperience);
+        System.out.println("Сотрудники со стажем 6 лет: " + employeesWithExperience);
 
         List<String> phoneNumbers = directory.findPhoneNumbersByName("Axe");
         System.out.println("Номера телефонов сотрудника Axe: " + phoneNumbers);
