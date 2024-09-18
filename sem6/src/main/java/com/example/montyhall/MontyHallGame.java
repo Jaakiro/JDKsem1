@@ -16,7 +16,7 @@ public class MontyHallGame {
             openedDoor = random.nextInt(3);
         } while (openedDoor == carDoor || openedDoor == chosenDoor);
 
-        // Игрок решает, менять ли выбор 
+        // Игрок решает, менять ли выбор
         boolean switchDoor = random.nextBoolean();
         int finalChoice = switchDoor ? 3 - chosenDoor - openedDoor : chosenDoor;
 
