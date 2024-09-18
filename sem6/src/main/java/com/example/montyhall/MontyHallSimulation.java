@@ -14,7 +14,7 @@ public class MontyHallSimulation {
         int switchWins = 0;
         int stayWins = 0;
 
-        DescriptiveStatistics statistics = new DescriptiveStatistics(); // Для статистики
+        DescriptiveStatistics statistics = new DescriptiveStatistics();
 
         for (int i = 1; i <= NUM_SIMULATIONS; i++) {
             GameResult result = game.play();
